@@ -4,7 +4,7 @@ const Call = () => {
   return (
     <div>
       <div class="text-white body-font">
-        <div class="container px-5 py-10 mx-auto">
+        <div class="container px-5 py-2 mx-auto">
           <div class="flex flex-col text-center w-full mb-20">
             <h2 class="text-2xl text-green-500 tracking-widest font-medium title-font mb-1">
               Are you looking to Hire

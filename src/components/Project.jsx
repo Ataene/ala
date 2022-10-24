@@ -72,7 +72,12 @@ const Project = () => {
   return (
     <>
       <div class="text-gray-600 body-font">
-        <div class="container px-5 py-5 mx-auto">
+        <div
+          class="container px-5 py-5 mx-auto"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-once="true"
+        >
           <div class="flex flex-col text-center w-full mb-12">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Personal and Collaborative Projects

@@ -6,7 +6,9 @@ const Profile = () => {
     <>
       <div className="dark:bg-gray-600 dark:text-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-6 lg:py-10 lg:flex-row lg:justify-between">
-          <div className="flex flex-col justify-center p-10 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+          <div className="flex flex-col justify-center p-10 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left" data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-once="true">
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
               Emmanuel
               <span className="text-red-400"> Ala</span>
@@ -63,7 +65,9 @@ const Profile = () => {
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center p-24 mt-4 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <div className="flex items-center justify-center p-24 mt-4 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" data-aos="fade-left"
+                  data-aos-delay="600"
+                  data-aos-once="true">
             <img
               src={emmanuel}
               alt="Emmanuel Alafonye"
