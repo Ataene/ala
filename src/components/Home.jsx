@@ -1,6 +1,4 @@
 import React from "react";
-import Call from "./Call";
-import Carosoul from "./Carosoul";
 import Contact from "./Contact";
 import Profile from "./Profile";
 import Project from "./Project";
@@ -14,12 +12,10 @@ const Home = () => {
       <Profile />
       <Trusted />
       <Project />
-      <Call />
       <Technology />
       <Steps />
       <Services />
       <Contact />
-      <Carosoul />
     </>
   );
 };

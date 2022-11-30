@@ -95,7 +95,7 @@ const Contact = () => {
                   />
                 </svg>
 
-                <span className="text-2xl md:ml-2">cornish@teams.com</span>
+                <span className="text-2xl md:ml-2">LinkedIn</span>
               </p>
             </div>
           </div>

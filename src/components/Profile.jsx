@@ -16,7 +16,7 @@ const Profile = () => {
             <p className="mt-1 mb-1 text-3xl sm:mb-12">
               <span className="text-green-600 italic">Full Stack Software</span>{" "}
               Developer, <br />
-              B.A.Sc Petroluem Engineering & MBA
+              B.A.Sc., Petroluem Engineering & MBA
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
