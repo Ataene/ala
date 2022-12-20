@@ -4,19 +4,22 @@ const emmanuel = require("../images/Alaf.jpeg");
 const Profile = () => {
   return (
     <>
-      <div className="dark:bg-gray-600 dark:text-gray-100">
+      <div className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-6 lg:py-10 lg:flex-row lg:justify-between">
-          <div className="flex flex-col justify-center p-10 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left" data-aos="fade-right"
-                  data-aos-delay="600"
-                  data-aos-once="true">
+          <div
+            className="flex flex-col justify-center p-10 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+            data-aos="fade-right"
+            data-aos-delay="600"
+            data-aos-once="true"
+          >
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
               Emmanuel
               <span className="text-red-400"> Ala</span>
             </h1>
             <p className="mt-1 mb-1 text-3xl sm:mb-12">
-              <span className="text-green-600 italic">Full Stack Software</span>{" "}
+              <span>Full Stack Software</span>{" "}
               Developer, <br />
-              B.A.Sc., Petroluem Engineering & MBA
+              Petroluem Engineer & MBA
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
@@ -28,7 +31,7 @@ const Profile = () => {
                   )
                 }
                 title="LinkedIn Profile"
-                className="flex items-center justify-center w-10 h-10 rounded dark:bg-teal-400 dark:text-gray-900 cursor-pointer"
+                className="flex items-center justify-center w-10 h-10 rounded dark:bg-sky-400 dark:text-gray-900 cursor-pointer"
               >
                 <svg
                   fill="currentColor"
@@ -52,7 +55,7 @@ const Profile = () => {
                   window.open("https://github.com/Ataene", "_blank")
                 }
                 title="GitHub Profile"
-                className="flex items-center justify-center w-10 h-10 rounded dark:bg-teal-400 dark:text-gray-900 cursor-pointer"
+                className="flex items-center justify-center w-10 h-10 rounded dark:bg-sky-400 dark:text-gray-900 cursor-pointer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,9 +68,12 @@ const Profile = () => {
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center p-24 mt-4 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" data-aos="fade-left"
-                  data-aos-delay="600"
-                  data-aos-once="true">
+          <div
+            className="flex items-center justify-center p-24 mt-4 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            data-aos="fade-left"
+            data-aos-delay="600"
+            data-aos-once="true"
+          >
             <img
               src={emmanuel}
               alt="Emmanuel Alafonye"

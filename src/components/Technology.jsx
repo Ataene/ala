@@ -57,86 +57,84 @@ const Technology = () => {
       description: "React Native",
     },
     {
-        id: 11,
-        image: require("../images/ml.png"),
-        title: "Python",
-        description: "Data science",
-      },
-      {
-        id: 12,
-        image: require("../images/ml.png"),
-        title: "SwiftUI",
-        description: "iOS development",
-      },
-      {
-        id: 12,
-        image: require("../images/ml.png"),
-        title: "SwiftUI",
-        description: "iOS development",
-      },
+      id: 11,
+      image: require("../images/ml.png"),
+      title: "Python",
+      description: "Data science",
+    },
+    {
+      id: 12,
+      image: require("../images/ml.png"),
+      title: "SwiftUI",
+      description: "iOS development",
+    },
+    {
+      id: 12,
+      image: require("../images/ml.png"),
+      title: "SwiftUI",
+      description: "iOS development",
+    },
   ];
   return (
     <>
-      <div
-        class="text-gray-600 body-font"
-        data-aos="zoom-in"
-        data-aos-delay="100"
-        data-aos-once="true"
-      >
-        <div class="container px-5 py-2 mx-auto">
-          <div class="flex flex-wrap">
-            <div class="flex flex-col text-center w-full mb-12">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-                Technologies
-              </h1>
-            </div>
-            {techStacks.map((item) => (
-              <div class="p-2 lg:w-1/3 md:w-1/2 w-full" key={item.id}>
-                <div class="h-full flex items-center border-gray-200 border p-2 rounded-lg bg-green-300 shadow-lg shadow-sky-500/60">
-                  <img
-                    data-aos="fade-up"
-                    data-aos-delay="600"
-                    data-aos-once="true"
-                    alt="team"
-                    class="w-24 h-24 -mt-20 bg-gray-100 rounded mr-4 hover:scale-125"
-                    src={item.image}
-                  />
-                  <div class="flex-grow">
-                    <h2 class="text-gray-900 title-font font-medium">
-                      {item.title}
-                    </h2>
-                    <p class="text-gray-500">{item.description}</p>
-                    <button class="flex mt-3 p-2 h-full items-center mb-2 bg-green-600  focus:outline-none hover:bg-green-600 rounded">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 text-white"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
-                        />
-                      </svg>
-                      <span class="title-font font-lg text-white">
-                        Listen Now
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
+      <section class="text-gray-600 body-font">
+        <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
+          <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+              My Skills and Experience
+            </h1>
+            <p class="leading-relaxed text-white text-xl">
+              I am software developer, and I have a kin interested in business development. 
+              Pursuing an MBA enables me to analysis the right products and and straetegic business develpment.
+            </p>
+            <a class="text-green-500 inline-flex items-center mt-4">
+              Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="flex flex-col md:w-1/2 md:pl-12">
+            <h2 class="title-font font-semibold text-white tracking-wider text-xl mb-3">
+              Full Stack Experience
+            </h2>
+            <nav class="flex flex-wrap list-none -mb-1">
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">HTML, CSS & JavaScript</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">React & Next</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">Node.js & Express</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">MongoDB</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">Google Firebase</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">SQL</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">Git and GitHub</a>
+              </li>
+              <li class="lg:w-1/3 mb-1 w-1/2">
+                <a class="text-white hover:text-gray-800">Python and Data Science</a>
+              </li>
+            </nav>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
