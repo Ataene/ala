@@ -30,13 +30,13 @@ const Contact = () => {
       <div className="text-gray-900 py-5  md:mt-2 md:mb-2 ">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div
-            className="py-6 md:py-0 md:px-6 bg-sky-200 shadow-lg shadow-sky-500/60"
+            className="py-6 md:py-0 md:px-6 bg-dark-200 shadow-lg shadow-sky-500/60"
             data-aos="fade-right"
           >
-            <h1 className="text-4xl font-bold md:pt-10 md:mt-10">
-              Contact us today
+            <h1 className="text-4xl font-bold md:pt-10 md:mt-10 text-white">
+              Contact me today
             </h1>
-            <p className="pt-2 pb-4 text-2xl">Call or send us a message</p>
+            <p className="pt-2 pb-4 text-white">Call or send me a message</p>
             <div className="space-y-4">
               <p className="flex items-center">
                 <svg
@@ -45,7 +45,7 @@ const Contact = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -59,7 +59,7 @@ const Contact = () => {
                   />
                 </svg>
 
-                <span className="text-2xl md:ml-2">Calgary, Alberta, Canada</span>
+                <span className="md:ml-2 text-white">Calgary, Alberta, Canada</span>
               </p>
               <p className="flex items-center">
                 <svg
@@ -68,7 +68,7 @@ const Contact = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -77,7 +77,7 @@ const Contact = () => {
                   />
                 </svg>
 
-                <span className="text-2xl md:ml-2">+1 (403)-299-344</span>
+                <span className="md:ml-2 text-white">+1 (403)-299-344</span>
               </p>
               <p className="flex items-center">
                 <svg
@@ -86,7 +86,7 @@ const Contact = () => {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-6 h-6 text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -95,7 +95,7 @@ const Contact = () => {
                   />
                 </svg>
 
-                <span className="text-2xl md:ml-2">LinkedIn</span>
+                <span className="md:ml-2 text-white">LinkedIn</span>
               </p>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Contact = () => {
             className="flex ng-valid flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine"
           >
             <label className="block">
-              <span className="mb-1">Full name</span>
+              <span className="mb-1 text-white">Full name</span>
               <input
                 value={fullName}
                 onChange={(e) => {
@@ -120,7 +120,7 @@ const Contact = () => {
               />
             </label>
             <label className="block">
-              <span className="mb-1">Email address</span>
+              <span className="mb-1 text-white">Email address</span>
               <input
                 value={email}
                 onChange={(e) => {
@@ -133,7 +133,7 @@ const Contact = () => {
               ></input>
             </label>
             <label className="block">
-              <span className="mb-1">Message</span>
+              <span className="mb-1 text-white">Message</span>
               <textarea
                 value={message}
                 onChange={(e) => {
@@ -146,7 +146,7 @@ const Contact = () => {
             </label>
             <button
               type="submit"
-              className="self-center focus:ring-opacity-75 px-8 py-3 text-lg rounded focus:ring hover:ring bg-green-400 shadow-lg shadow-green-500/60 dark:text-gray-900 focus:ring-green-400 hover:ring-green-600"
+              className="self-center focus:ring-opacity-75 px-8 py-3 text-lg rounded focus:ring hover:ring bg-blue-400 shadow-lg shadow-green-500/60 dark:text-gray-900 focus:ring-green-400 hover:ring-green-600 text-white"
             >
               Submit
             </button>

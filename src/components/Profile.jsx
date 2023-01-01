@@ -1,5 +1,6 @@
 import React from "react";
-const emmanuel = require("../images/Alaf.jpeg");
+// const emmanuel = require("../images/Alaf.jpeg");
+const emmanuel = require("../images/Alafonye.jpeg");
 
 const Profile = () => {
   return (
