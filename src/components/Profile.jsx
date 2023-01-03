@@ -16,13 +16,11 @@ const Profile = () => {
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
               Emmanuel
               <span className="text-red-400"> Ala</span>
+              <h2 className="mt-1 mb-1 text-3xl sm:mb-12">
+                Software Developer & MBA
+              </h2>
             </h1>
-            <p className="mt-1 mb-1 text-3xl sm:mb-12">
-              <span>Full Stack Software</span>{" "}
-              Developer, <br />
-              Petroluem Engineer & MBA
-            </p>
-            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+            <div className="flex sm:flex-row md:flew-row justify-center sm:mt-2">
               <a
                 rel="noopener noreferrer"
                 onClick={() =>
@@ -32,7 +30,7 @@ const Profile = () => {
                   )
                 }
                 title="LinkedIn Profile"
-                className="flex items-center justify-center w-10 h-10 rounded dark:bg-sky-400 dark:text-gray-900 cursor-pointer"
+                className="flex items-center justify-center w-10 h-10 rounded dark:bg-sky-400 dark:text-gray-900 cursor-pointer mr-5"
               >
                 <svg
                   fill="currentColor"
